@@ -40,7 +40,7 @@ public class mainController implements Initializable {
     @FXML
     private Button helpButton;
     @FXML
-    private Button ebolaButton;
+    private Button hepatitisDButton;
     @FXML
     private VBox envelopeVirusView;
     @FXML
@@ -54,7 +54,7 @@ public class mainController implements Initializable {
     @FXML
     private ImageView coronaVirusView;
     @FXML
-    private ImageView ebolaVirusView;
+    private ImageView hepatitisDVirusView;
     @FXML
     private ImageView hivView;
 
@@ -69,8 +69,8 @@ public class mainController implements Initializable {
 
 
     @FXML
-    void ebolaScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/envelope/ebola/FXML/ebolaFxml.fxml")));
+    void hepatitisDScene(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/envelope/hepatitisd/FXML/HepatitisD.fxml")));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
