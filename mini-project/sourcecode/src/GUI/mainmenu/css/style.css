@@ -1,0 +1,24 @@
+.background {
+-fx-background-image: url("../media/test4.png");
+-fx-background-size:100% 100%;
+}
+
+.close-btn{
+    -fx-border-width:1;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.close-btn:hover{
+-fx-background-color: #E81123;
+}
+
+.min-btn{
+    -fx-border-width: 1;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.min-btn:hover{
+-fx-background-color: #171717;
+}

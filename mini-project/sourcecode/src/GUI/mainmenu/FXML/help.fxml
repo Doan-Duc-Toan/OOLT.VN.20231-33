@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="542.0" prefWidth="816.0" styleClass="background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.mainmenu.ControllerHelp">
+    <children>
+        <Label alignment="TOP_CENTER" layoutX="302.0" layoutY="31.0" prefHeight="49.0" prefWidth="213.0" text="WELCOME" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold Italic" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="27.0" layoutY="209.0" text="User Manual: &#10;Lmao trạch đông&#10;bủh bủh&#10;dảk dảk&#10;Onichannnnnn&#10;are are&#10;Pỏnhubbbb" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="20.0" />
+            </font>
+        </Label>
+        <HBox alignment="TOP_RIGHT" layoutX="694.0" layoutY="5.0" prefHeight="26.0" prefWidth="114.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#minimize_stage" styleClass="min-btn" text="―" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="91.0" layoutY="10.0" mnemonicParsing="false" onAction="#close_app" styleClass="close-btn" text="✕" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+        </HBox>
+      <Label layoutX="27.0" layoutY="129.0" text="Purpose: Help users have more knowledge about&#10;viruses and how to prevent them" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
