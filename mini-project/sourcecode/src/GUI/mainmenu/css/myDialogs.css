@@ -1,29 +1,29 @@
 .myDialog{
-    -fx-background-color: #cd5c5c;
+    -fx-background-color: #08536e;
 }
 .myDialog > *.button-bar > *.container{
-    -fx-background-color: #cd5c5c;
+    -fx-background-color: #08536e;
 }
 .myDialog > *.label.content{
     -fx-font-size: 14px;
     -fx-font-weight: bold;
-    -fx-font-color:  #ffffe0;
+    -fx-font-color:  #050b54;
     -fx-text-fill: #ffffe0;
     
 }
 .myDialog:header *.header-panel{
-    -fx-background-color: #8b0000;
+    -fx-background-color: #1b5c81;
 }
 .myDialog:header *.header-panel *.label{
     -fx-font-size: 18px;
     -fx-font-style: italic;
     -fx-font-weight: bold;
     -fx-text-fill: #ffffe0;
-    -fx-font-color: #ffffe0;
+    -fx-font-color: #050b54;
 }
 
 .dialog-pane .button{
-   -fx-background-color:#b22222;
+   -fx-background-color:#5c94b5;
    -fx-text-fill:#ffffe0;
    -fx-wrap-text: true;
    -fx-cursor:hand;
