@@ -185,7 +185,7 @@ public class mainController implements Initializable {
         alert.setHeaderText("DO YOU SURE TO EXIT?");
         alert.setContentText("Choose your option");
         alert.initStyle(StageStyle.UNDECORATED);
-        ImageView icon = new ImageView(new File("src/GUI/mainmenu/media/your_icon.png").toURI().toString());
+        ImageView icon = new ImageView(new File("src/GUI/mainmenu/media/icon.png").toURI().toString());
         icon.setFitHeight(50);
         icon.setFitWidth(50);
         alert.getDialogPane().setGraphic(icon);

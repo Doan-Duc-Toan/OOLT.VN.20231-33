@@ -1,6 +1,6 @@
 .button{
-    -fx-background-color: #33230c;
-    -fx-border-color:  #0e73cc;
+    -fx-background-color: #99bad7;
+    -fx-border-color:  #0a467b;
     -fx-border-width: 3 3 3 3;
     -fx-border-radius:  3 3 0 0;
     -fx-border-insets: -1;
@@ -11,6 +11,6 @@
     -fx-border-width: 5 5 5 5;
 }
 .button:pressed{
-    -fx-background-color: #180402;
+    -fx-background-color: #08b7f6;
 }
 
