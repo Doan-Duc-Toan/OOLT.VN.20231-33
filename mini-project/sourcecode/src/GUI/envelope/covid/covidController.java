@@ -101,15 +101,8 @@ public class covidController extends GeneralVirusController implements Initializ
         } catch (Exception e1) {
         }
     }
-    @Override
-    public void animation(ActionEvent e){
-        super.animation(e);
-        try {
-            mediaPlayer.stop();
-        } catch (Exception e1) {
-        }
 
-    }
+
 
     @Override
     public void home(ActionEvent e) throws IOException {
