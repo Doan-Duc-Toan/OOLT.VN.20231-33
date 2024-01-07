@@ -46,17 +46,13 @@ public class mainController implements Initializable {
     @FXML
     private VBox nonEnvelopeVirusView;
     @FXML
-    private ImageView rhinoVirusView;
+    private ImageView enteroVirusView;
     @FXML
-    private ImageView noroVirusView;
-    @FXML
-    private ImageView polioVirusView;
+    private ImageView caliciVirusView;
     @FXML
     private ImageView coronaVirusView;
     @FXML
     private ImageView hepatitisDVirusView;
-    @FXML
-    private ImageView hivView;
 
 
     public void initialize(URL arg0, ResourceBundle arg1) {
@@ -79,9 +75,10 @@ public class mainController implements Initializable {
 
     }
 
+
     @FXML
-    void hivScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/envelope/hiv/FXML/hivFxml.fxml")));
+    void enteroScene(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/nonenvelope/entero/FXML/enteroFxml.fxml")));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -91,30 +88,8 @@ public class mainController implements Initializable {
     }
 
     @FXML
-    void rhinoScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/nonenvelope/rhino/FXML/rhinoFxml.fxml")));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        music.stop();
-        stage.show();
-
-    }
-
-    @FXML
-    void noroScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/nonenvelope/noro/FXML/noroFxml.fxml")));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        music.stop();
-        stage.show();
-
-    }
-
-    @FXML
-    void polioScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/nonenvelope/polio/FXML/polioFxml.fxml")));
+    void caliciScene(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/nonenvelope/calici/FXML/caliciFxml.fxml")));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -125,13 +100,13 @@ public class mainController implements Initializable {
 
     @FXML
     void covidScene(ActionEvent event) throws IOException {
-            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/envelope/covid/FXML/covidFxml.fxml")));
-            stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
-            scene.setRoot(root);
-            stage.setScene(scene);
-            music.stop();
-            stage.show();
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/GUI/envelope/covid/FXML/covidFxml.fxml")));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        scene.setRoot(root);
+        stage.setScene(scene);
+        music.stop();
+        stage.show();
     }
 
     @FXML

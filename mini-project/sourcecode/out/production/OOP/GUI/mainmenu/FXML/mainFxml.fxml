@@ -121,7 +121,7 @@
                     <children>
                   <VBox>
                      <children>
-                        <Button mnemonicParsing="false" onAction="#rhinoScene" prefHeight="35.0" prefWidth="578.0" stylesheets="@../css/button.css" text="Entero Virus" textFill="WHITE">
+                        <Button mnemonicParsing="false" onAction="#enteroScene" prefHeight="35.0" prefWidth="578.0" stylesheets="@../css/button.css" text="Entero Virus" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -135,7 +135,7 @@
                   </VBox>
                   <VBox focusTraversable="true">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#noroScene" prefHeight="35.0" prefWidth="606.0" stylesheets="@../css/button.css" text="Calici Virus" textFill="WHITE">
+                        <Button mnemonicParsing="false" onAction="#caliciScene" prefHeight="35.0" prefWidth="606.0" stylesheets="@../css/button.css" text="Calici Virus" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
