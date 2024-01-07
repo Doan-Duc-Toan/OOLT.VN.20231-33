@@ -108,15 +108,7 @@ public class caliciController extends GeneralVirusController implements Initiali
         }
     }
 
-    @Override
-    public void animation(ActionEvent e) {
-        super.animation(e);
-        try {
-            mediaPlayer.stop();
-        } catch (Exception e1) {
-        }
 
-    }
 
     @FXML
     public void play(ActionEvent e) {

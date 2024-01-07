@@ -111,14 +111,7 @@ public class HepatitisDController extends GeneralVirusController implements Init
         }
     }
 
-    public void animation(ActionEvent e){
-        super.animation(e);
-        try {
-            mediaPlayer.stop();
-        } catch (Exception e1) {
-        }
 
-    }
 
     @FXML
     public void play(ActionEvent e) {

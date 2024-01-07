@@ -109,15 +109,7 @@ public class enteroController extends GeneralVirusController implements Initiali
         } catch (Exception e1) {
         }
     }
-    @Override
-    public void animation(ActionEvent e){
-        super.animation(e);
-        try {
-            mediaPlayer.stop();
-        } catch (Exception e1) {
-        }
 
-    }
 
     @FXML
     public void play(ActionEvent e) {
