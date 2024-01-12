@@ -62,3 +62,4 @@ Nguyễn Hoàng Thương 20215146 :
    +Thiết kế slide
 
 Tài liệu tham khảo: https://github.com/ducphuE10/oop/tree/main
+Link video demo: https://husteduvn.sharepoint.com/:v:/s/NhmOOP2023/EdiSvtbF1iZGvUR8teFbbFsBqCK6PgdlZgno7l6VIMCRfw?e=9UxNsU
