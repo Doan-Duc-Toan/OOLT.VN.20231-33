@@ -141,7 +141,6 @@ public class GeneralVirusController {
     void pressed(MouseEvent event) {
         x = event.getSceneX();
         y = event.getSceneY();
-
     }
 
     @FXML
