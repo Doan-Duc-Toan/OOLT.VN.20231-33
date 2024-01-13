@@ -1,0 +1,17 @@
+.root{
+    -fx-background-image: url("../media/background.jpg");
+    -fx-background-size: cover;
+
+}
+.button{
+    -fx-background-color: rgba(42, 7, 4, 0.76);
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 3 3 3 3;
+    -fx-border-radius:  3 3 0 0;
+    -fx-border-insets: -1;
+    -fx-alignment: center;
+}
+.button :hover {
+    -fx-background-color: white;
+
+}

@@ -153,15 +153,7 @@ public class GeneralVirusController {
         collapse(e);
 
     }
-    @FXML
-    public void animation(ActionEvent e){
 
-        media.setVisible(false);
-        image.setVisible(false);
-        playingBar.setVisible(false);
-        animationView.setVisible(true);
-        collapse(e);
-   }
 
     @FXML
     public void video(ActionEvent e) {

@@ -5,8 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="module-library">
       <library name="javafx-fxml">
         <CLASSES>
@@ -24,5 +25,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="javafx-swt" level="project" />
+=======
+    <orderEntry type="library" exported="" name="javaFX-17" level="application" />
+    <orderEntry type="library" name="lib" level="project" />
+>>>>>>> 2efb02c154e8e965892c22c9de4632beccc3a1b1
   </component>
 </module>
